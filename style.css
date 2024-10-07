@@ -63,6 +63,10 @@ color: #FFF8F3;
     background-color: #d6e12d;
     color:#FFFFFF ;
 }
+:hover.a-tag{
+background-color: rgb(252, 247, 224);
+border-radius: 5px;
+}
 
 /* baner section */
 
@@ -116,3 +120,142 @@ font-weight:bold;
 
 /* main section  */
 
+
+
+.img-title{
+    font-family: "Oswald", sans-serif;
+    font-size: 29px;
+
+}
+
+.img-discrption{
+    color:#444343 ;
+    padding-right:280px;
+    word-spacing:4px ;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 12px;
+}
+
+.md-section{
+    display:flex;
+    align-items:center ;
+    margin-top: 100px;
+}
+
+.md-section div{
+width: 50%;
+
+}
+
+.li-item{
+margin-bottom: 14px;
+color: #444343;
+font-size: 15px;
+font-family: "Inconsolata", monospace;
+}
+
+/* plan section */
+
+.sec-2{
+margin-top: 100px;
+}
+
+.my-plan{
+    text-align: center;
+}
+
+.my-skill{
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    text-align: left;
+    gap: 230px;
+    margin-top: 60px;
+}
+
+
+.skill-title{
+font-size: 25px;
+font-weight: bold;
+font-family: "Oswald", sans-serif;
+}
+
+.skill-dis{
+color: #737272;
+font-size: 19px ;
+font-family: "Inconsolata", monospace;
+
+}
+
+/* last main section */
+.call-section{
+   position: relative;
+   overflow: hidden;
+    /* padding: 50px 20px 50px 50px; */
+    /* display: flex; */
+     background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 7px;
+    
+    /* align-items: left; */
+    /* text-align:left; */
+    
+    }
+
+    .call-section img{
+        /* z-index: 0; */
+        position: absolute;
+        /* height: 100%; */
+        overflow: hidden;
+        width:100% ;
+    }
+
+    .call-section-details h3,button{
+        z-index:999 !important ;
+    }
+/* footer section */
+
+    footer{
+        gap: 110px;
+        margin-top: 120px;
+        display: flex;
+        background-color: #000000;
+        padding: 130px 225px;
+        }
+        .socila-links a{
+            padding-right: 25px;
+            }
+            
+            .socila-links a{
+            
+                margin-right: 25px;
+            
+            }
+
+            .section-discription{
+                color:#FFFFFF;
+}
+.section-titel{
+    color:#FFFFFF;
+}
+.contact input[type="text"], .contact input[ type="email"] {
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 34px;
+    color: #fff2f2;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    border: 0px solid whitesmoke;
+    width: 100%;
+}
+
+.btn-primary2{
+width: 100px;
+height: 40px;
+border-radius: 7px;
+color: var(--clr-btn);
+font-size: 17px;
+font-weight: bold;
+}
